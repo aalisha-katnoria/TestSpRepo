@@ -1,14 +1,1 @@
 
-return Scaffold(
-      body: SafeArea(
-        child: Column(children: [
-          const Padding(
-            padding: EdgeInsets.all(20),
-          ),
-          SizedBox(
-            height: Get.height * 0.090,
-          ),
-          Center(
-            child: InkWell(
-              onTap: () {
-                Get.to(Page2());
